@@ -5,8 +5,7 @@ const assertEqual = (actual, expected) => {
 };
 
 const findKeyByValue = (obj, findValue) => {
-  let result = Object.entries(obj).find((val) => val[1] === findValue);
-  return result && result[0];
+  return Object.keys(obj).find((val) => obj[val] === findValue);
 };
 
 const bestTVShowsByGenre = {
