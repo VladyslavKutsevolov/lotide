@@ -4,8 +4,8 @@ const eqArrays = (arr1, arr2) => {
   }
 };
 
-const assertArraysEqual = (arr1, arr2) => {
-  return eqArrays(arr1, arr2)
-    ? `✅✅✅ Assertion Passed`
-    : `🛑🛑🛑Assertion Failed`;
+const assertArraysEqual = (actual, expected) => {
+  return eqArrays(actual, expected)
+    ? `✅✅✅ Assertion Passed: ${actual} === ${expected}`
+    : `🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`;
 };
