@@ -1,0 +1,27 @@
+{
+  "name": "@VladyslavKutsevolov/lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladyslavKutsevolov/lotide.git"
+  },
+  "keywords": [],
+  "author": "Vladyslav Kutsevolov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladyslavKutsevolov/lotide/issues"
+  },
+  "homepage": "https://github.com/VladyslavKutsevolov/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  }
+}

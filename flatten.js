@@ -5,4 +5,5 @@ const flatten = (array) => {
     return `${array} is not array`;
   }
 };
-console.log(flatten('s'));
+
+module.exports = flatten;

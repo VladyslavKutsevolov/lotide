@@ -1,4 +1,4 @@
-const letterPositions = function (sentence) {
+const letterPositions = (sentence) => {
   const results = {};
   const noSpaceStr = sentence.split(' ').join('').split('');
 
@@ -14,4 +14,4 @@ const letterPositions = function (sentence) {
   return results;
 };
 
-console.log(letterPositions('implemented'));
+module.exports = letterPositions;

@@ -1,9 +1,3 @@
-const assertEqual = (actual, expected) => {
-  return actual === expected
-    ? `✅✅✅ Assertion Passed: ${actual} === ${expected}`
-    : `🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`;
-};
-
 const countLetters = (str) => {
   const result = {};
   const noSpaceStr = str.split(' ').join('');
@@ -17,4 +11,4 @@ const countLetters = (str) => {
   return result;
 };
 
-console.log(countLetters('lighthouse in the house'));
+module.exports = countLetters;
